@@ -23,26 +23,53 @@ O objetivo é criar um formulário funcional para **cadastro de fornecedores e p
   - Exibe modal de "Enviando..." (loading).
   - Gera um JSON no formato especificado no enunciado.
   - JSON exibido no console do navegador e disponível para download.
-- Layout responsivo com **Bootstrap** e paleta de cores adaptada ao layout do PDF.
+- Layout responsivo com Bootstrap e paleta de cores adaptada ao layout do PDF.
 
 ---
 
-## 🖼 Layout
+ 🖼 Layout
 
 O layout do formulário foi desenvolvido com base no modelo PDF fornecido, adaptando para uso com Bootstrap 4.5 e CSS customizado para manter fidelidade visual.
 
 ---
 
-## 🛠 Tecnologias Utilizadas
+ 🛠 Tecnologias Utilizadas
 
-- **HTML5**
-- **CSS3** (com Bootstrap 4.5 e customização própria)
-- **JavaScript (ECMAScript 6)**
-- **jQuery 3.5.1**
-- **Bootstrap 4.5**
-- **API ViaCEP** (consulta de endereço por CEP)
+- HTML5
+- CSS3 (com Bootstrap 4.5 e customização própria)
+- JavaScript (ECMAScript 6)
+- jQuery 3.5.1
+- Bootstrap 4.5
+- API ViaCEP (consulta de endereço por CEP)
+
+---
+ 📂 Estrutura de Pastas
+pw_arthurmonteiro/
+│
+├── index.html
+├── css/
+│ └── style.css
+├── js/
+│ └── app.js
+└── README.md
 
 ---
 
-## 📂 Estrutura de Pastas
+Como Executar o Projeto
+
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/Arthur-Monteir0/Desafio-front-end.git
+   Abra o arquivo index.html no navegador.
+
+Recomenda-se usar o Live Server (VS Code) para evitar bloqueios de API.
+
+Preencha o formulário, adicione pelo menos 1 produto e 1 anexo.
+
+Clique em Salvar Fornecedor para gerar o JSON (veja no console ou baixe pelo botão).
+Observações Importantes
+Campos obrigatórios: Razão Social, Nome Fantasia, CNPJ, CEP, Endereço, Nome do Contato, Telefone, E-mail.
+
+Pelo menos 1 produto e 1 anexo são necessários para salvar.
+
 
